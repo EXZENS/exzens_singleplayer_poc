@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.exzens.exzens_singleplayer_poc">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="exzens_singleplayer_poc"
         android:name="${applicationName}"
