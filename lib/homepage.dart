@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
   TextEditingController _nameController = TextEditingController();
 
   void _myTest() async {
-    // Init SDK
+    // Init SDK .
     Client client = Client();
     Database database = Database(client);
     client
