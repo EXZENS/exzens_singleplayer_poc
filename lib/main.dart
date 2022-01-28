@@ -2,7 +2,7 @@ import 'package:exzens_singleplayer_poc/homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:appwrite/appwrite.dart';
 
-void main() {
+void main() async {
   Client client = Client();
   client
           .setEndpoint(
